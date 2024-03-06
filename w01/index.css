@@ -6,7 +6,10 @@
 }
 
 .name-list img {
-    width: 50px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 25% 75%;
 }
 
 ul {
