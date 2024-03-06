@@ -3,10 +3,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: lightgreen;
 }
 
 a {
     cursor: url('/assets/cursor.cur'), auto;
+}
+
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotator {
+    100% {
+        rotate: 360deg;
+    }
 }
 
 
@@ -24,6 +39,12 @@ a {
     aspect-ratio: 1;
     object-fit: cover;
     object-position: 25% 75%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.name-list img:hover {
+    animation: rotator 1s linear infinite;
 }
 
 .name-list p {
