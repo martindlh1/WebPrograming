@@ -1,0 +1,14 @@
+.name-list {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.name-list img {
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
