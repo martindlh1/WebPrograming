@@ -1,9 +1,50 @@
+
+
 body{
     position: relative;
     left: 80px;
     background: lightgreen;
+
+
 }
-header nav ul li a:hover{
+header a:hover{
     font-weight: bold;
     color:#2100f7;
 }
+
+h1,h2,h3,h4 {
+
+    font-family: "Audiowide", serif;
+
+}
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+h2{
+    font-size: 35px;
+    font-style: italic ;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h4{
+    font-size: 15px;
+    font-style: italic ;
+
+}
+main{
+    display: inline-block;
+    text-align: left;
+    font-family: "Oswald",serif;
+}
+footer{
+    font-family: "Oswald",serif;
+    font-size: 10px;
+}
+
+
