@@ -8,8 +8,8 @@
 </head>
 <body>
 <ul>
-    <li><a href="../../w01/nhan.html">Home</a></li>
-    <li class="active"><a href="nhan_w3.html">Back</a></li>
+    <li><a href="../../w01/index.html"><p>Menu</p></a></li>
+    <li class="active"><a href="nhan_w3.html"><p>Back</p></a></li>
 </ul>
 <ol>
     <li>First</li>
@@ -38,9 +38,12 @@
     This is the third paragraph. This is the third paragraph.
 </p>
 <form>
-    <input type="text" required name="name"><br>
-    <input type="email" required name="email"><br>
-    <input type="phone" name="phone"><br>
+    <label for="name">Name:<span class="req">*</span> </label>
+    <input type="text"  id="name" required name="name"><br>
+    <label for="Email">Phone:<span class="req">*</span></label>
+    <input type="email" id="Email" required name="email"><br>
+    <label for="Phone">Phone Number:</label>
+    <input type="phone" id="Phone" name="phone"><br>
 </form>
 </body>
 </html>

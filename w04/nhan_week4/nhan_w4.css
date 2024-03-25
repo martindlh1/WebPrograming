@@ -5,7 +5,7 @@ body{
 }
 
 
-.week3_tutorial{
+.week4_tutorial{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ body{
     font-weight: bold;
 
 }
-.week3_tutorial:hover{
+.week4_tutorial:hover{
     outline: 5px solid black;
 }
 

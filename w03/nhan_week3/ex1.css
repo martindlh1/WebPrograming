@@ -1,0 +1,43 @@
+body{
+    position: relative;
+    left: 80px;
+    background: lightgreen;
+}
+
+
+nav li a:hover{
+    font-weight: bold;
+    color:#2100f7;
+}
+h1{
+    font-size: 50px;
+    color: #1c1636;
+}
+h2{
+    font-size: 35px;
+    color: #1d1833;
+}
+h3{
+    font-size: 20px;
+    color: #1b182b;
+}
+h4{
+    font-size: 15px;
+    color: #232130;
+}
+
+
+p:nth-child(2){
+    font-style: italic;
+}
+
+table tr:nth-child(odd){
+    background-color: #3f631e;
+}
+table tr:nth-child(even){
+    background-color: #9bc971
+}
+
+footer{
+    font-size: 10px;
+}

@@ -1,0 +1,39 @@
+body{
+    width: 200px;
+    position: relative;
+    left: 80px;
+    background: lightgreen;
+}
+ul li a:hover{
+    font-weight: bold;
+    color:#2100f7;
+}
+
+
+ol li:nth-child(n+1){
+    color:green;
+}
+ol li:first-child{
+    color: red;
+}
+ol li:last-child{
+    color: blue;
+}
+
+p:nth-child(3)::first-line{
+    background-color: pink;
+}
+p:nth-child(n+4)::first-line{
+    background-color: lightblue;
+}
+
+p:nth-child(n+3)::selection{
+    background-color: yellow;
+}
+
+.req{
+    color: red;
+}
+*:required{
+    background-color:yellow;
+}
