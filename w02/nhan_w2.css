@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    left: 80px;
+    background: lightgreen;
+}
+
+.form-container{
+    width: 200px;
+    height: 100px;
+
+}
+
+textarea{
+    height: 300px;
+    width: 350px;
+}
+
+input {
+    padding-right: 200px;
+
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
