@@ -1,9 +1,61 @@
-body{
+/** {*/
+/*    margin: 0px;*/
+/*}*/
+
+
+ul:nth-child(1){
     position: relative;
     left: 80px;
-    background: lightgreen;
 }
-ul li a:hover{
+body{
+    background-color: lightgreen;
+}
+
+header{
+    position: sticky;
+    background-color: #3f631e;
+    top: 0;
+    width: 100% ;
+}
+
+ul:nth-child(1) li a:hover{
     font-weight: bold;
     color:#2100f7;
 }
+
+
+#header-text{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+footer{
+    position: relative;
+    background-color: #3f631e;
+    text-align: center;
+    width: 100%;
+}
+
+#main{
+    background-color: #04AA6D;
+    display: flex;
+}
+
+main{
+    flex-grow: 1;
+    left: 80px;
+}
+
+aside{
+    background-color: darkolivegreen;
+
+}
+
+#left{
+    width: 20%;
+}
+#right{
+    width: 15%;
+}
+
+
