@@ -6,6 +6,7 @@
 ul:nth-child(1){
     position: relative;
     left: 80px;
+
 }
 body{
     background-color: lightgreen;
@@ -16,6 +17,12 @@ header{
     background-color: #3f631e;
     top: 0;
     width: 100% ;
+
+    /*padding-top: 20px;*/
+    /*left: 80px;*/
+    /*font-size: 20px;*/
+    /*font-style: italic;*/
+    /*text-align: center;*/
 }
 
 ul:nth-child(1) li a:hover{
@@ -23,27 +30,35 @@ ul:nth-child(1) li a:hover{
     color:#2100f7;
 }
 
-
 #header-text{
     font-size: 20px;
     font-style: italic;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
+
 footer{
+    margin-top: 10px;
     position: relative;
     background-color: #3f631e;
     text-align: center;
     width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #main{
     background-color: #04AA6D;
     display: flex;
+
 }
 
 main{
     flex-grow: 1;
-    left: 80px;
+    left: 200px;
 }
 
 aside{

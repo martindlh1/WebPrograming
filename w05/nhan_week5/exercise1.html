@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="exercise1.css">
+    <style>
+        div {
+            margin: 10px;
+        }
+    </style>
+    <script src="exercise1.js"></script>
+
+</head>
+
+<body>
+<ul>
+    <li>
+        <a href="../../w01/index.html">
+            <p>Menu</p>
+        </a>
+    </li>
+
+    <li>
+        <a href="../../w01/nhan.html">
+            <p>Back</p>
+        </a>
+    </li>
+</ul>
+
+<form id="myForm">
+    <div>
+        <input id="number1" placeholder="Number 1" type="number">
+    </div>
+    <div>
+        <input id="number2" placeholder="Number 2" type="number">
+    </div>
+    <div>
+        <input id="result" readonly type="number">
+    </div>
+    <div>
+        <input type="button"  value=" + " onclick="add()">
+        <input type="button" value=" - " onclick="minus()">
+        <input type="button" value=" * " onclick="multiply()">
+        <input type="button" value=" / " onclick="divide()">
+    </div>
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    position: relative;
+    left: 80px;
+    background: lightgreen;
+}
+
+
+nav li a:hover{
+    font-weight: bold;
+    color:#2100f7;
+}
+
